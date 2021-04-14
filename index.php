@@ -34,7 +34,7 @@ include 'include\common.php';
         <div class="jumbotron">
         <h1 style="font-size:40px;" >ABOUT</h1>
        <br>
-        <P>This a website that dedicated in bringing best services and best car deals in Kenya. We provide both brand new and second hand cars with all in good conditions. </P>
+        <P>This a website dedicated to bringing the best services and best car deals in Kenya. We provide both brand new and second-hand cars with all in good conditions. </P>
         <br>
         </div></div>
         </div>
