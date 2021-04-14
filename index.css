@@ -1,0 +1,14 @@
+.searchBox {
+    margin-top: 5%;
+    width: 80%;
+    border: 2px solid blue;
+}
+
+.searchInput {
+    width: 92%;
+    border: none;
+}
+
+.jumbotron {
+    background-image: url('/wal3.jpeg');
+}
