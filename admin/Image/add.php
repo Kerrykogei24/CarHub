@@ -12,11 +12,16 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
        
     </head>
-    <body>
+    <body >
+
+ 
     <br><br><br> <br><br>
+    <?php include '/search_form.php';?>
         <div class="container-fluid"><div class="col-md-offset-4 col-md-4" >
+        <div class="jumbotron">
             <div class="panel panel-default">
                 <div class="panel-body">
+               
                     <form method="post" enctype="multipart/form-data">
                         <div class="form-group">
                             <label for="name">Product Name</label>
@@ -40,13 +45,13 @@
                         </div>
                          <div class="form-group">
                             <label for="image">Product Image</label>
-                            <input type="file" name="upload" class="form-control">
+                            <input type="file" name="upload" class="form-control" accept="image/*">
                         </div>
                         
                         <input type="submit" name = 'submit' class="btn btn-success">
                         
                     </form>
-                    
+                    </div>
                     
                 </div>
             </div>
@@ -77,6 +82,9 @@
             }
       }
             }
+            
         ?>
+      
     </body>
+
 </html>

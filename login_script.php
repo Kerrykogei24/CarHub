@@ -13,6 +13,6 @@ require 'include/common.php';
     $_SESSION['email']= $row['email'];
     $_SESSION['user_id']=$row['id'];
     $_SESSION['name'] = $row['name'];
-    header('location:profile.php');
+    header('location:cart.php');
 }
 ?>

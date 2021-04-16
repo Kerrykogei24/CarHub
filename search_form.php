@@ -15,7 +15,8 @@
             <span class="icon-bar"></span>            
             <span class="icon-bar"></span>                                   
         </button>          
-            <a class="navbar-brand" href="index.php">CarHub</a>        
+            <a class="navbar-brand" href="index.php">CarHub</a>   
+            <a class="navbar-brand" href="/online-store/admin/admin.php" class='glyphicon glyphicon-user'>Admin</a>   
         </div>       
         <form class="navbar-form navbar-left" action="search.php">
             <div class="input-group">

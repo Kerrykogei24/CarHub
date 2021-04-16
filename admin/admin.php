@@ -13,11 +13,15 @@
         ?> 
     </head>
     <body>
-    <?php include 'search_form.php';?>
+ 
+   
+
         <br/>
-        <br/>
+    
         <!-- HTML FORM USING BOOTSTRAP-->
         <div class='container-fluid'>
+        <br/>
+
             <div class='col-sm-offset-4 col-sm-4'>
                     <div class="panel panel-success">
                         <div class="panel-heading"><h1>Admin Login</h1></div>
@@ -40,14 +44,15 @@
                         
                     </div>
             </div>
-        </div>        
+        </div>     
+  
          <!--CHECKING IF PASSWORD AND USERNAME ENTERED BY USER MATCHES-->           
         <?php 
             if(isset($_POST['submit']))
             {
                 if($_POST['username']===$username && $_POST['password']===$pwd)
                 {
-                    header('location:Image/database.php');
+                    header('location:Image/add.php');
                     $_SESSION['id']=$username;
                 }
                 else 
